@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f7f7f7;
+}
+
+input,
+button,
+textarea {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.post img {
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+.post {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+  padding: 10px;
+}
